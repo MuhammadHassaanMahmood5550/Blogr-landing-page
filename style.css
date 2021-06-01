@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+.btn1{
+    background-color: white;
+    border-radius: 25px;
+    padding: 7px 25px;
+    color: #DF6374;
+}
+
+.btn2{
+
+    border-radius: 25px;
+    padding: 7px 25px;
+    
+}
+
+.navbar_section{
+    background-image: linear-gradient(to right, #FF836D, #FF4658);
+    position: relative;
+    overflow: hidden;
+    border-bottom-left-radius: 75px;
+}
+
+.svg1{
+    position: absolute;
+    top: -1360px;
+    left: -472px;
+}
+
+/* body_section */
+#body_section{
+ position: relative;
+}
+.svg2{
+    position: absolute;
+   top: -175px;
+   left: 25px;
+}
+
+/* infrastructure_section */
+#infrasructure_section{
+    background-color: #3B3C5B;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    position: relative;
+    
+}
+
+.svg3{
+    position: absolute;
+   top: -166px;
+   z-index: 2;
+}
+
+.svg4{
+    position: absolute;
+    top: -600px;
+    left: -325px;  
+    clip-path: polygon(55% 49%, 100% 50%, 100% 100%, 51% 89%, 1% 74%, 1% 49%);
+}
+
+
+/* above-footer */
+.svg5{
+    position: absolute;
+    top: -185px;
+    left: -380px;
+}
+
+/* footer */
+#footer_section{
+  background-color: #24242C;
+  border-top-right-radius: 75px;
+}
+
+/* .for_svg{
+    
+    background-image: url("../images/bg-pattern-intro.svg");
+
+} */
+
+
+/* media queries */
+.again_svg2{
+    visibility: hidden;
+}
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // Medium devices (tablets, less than 992px) */
+
+
+/* body_section */
+@media (min-width: 372px) and (max-width: 478px) { 
+    .again_svg2{
+        transform: translateX(-50px);
+    }
+ }
+
+ @media (min-width: 425px) and (max-width: 478px) { 
+    .again_svg2{
+        transform: translateX(-15px);
+    }
+ }
+
+ /* infrastructure_section */
+ @media (min-width: 768px) and (max-width: 1125px) { 
+    .svg3{
+       width: 350px;
+       height: 350px;
+    }
+    
+    .svg4{
+       visibility: hidden;
+    }
+
+    .svg5{
+        width: 775px;
+        height: 775px;
+    }
+ }
+
+ @media (min-width: 340px) and (max-width: 527px) { 
+    .svg3{
+     top: -280px !important;
+    left: 10% !important;
+    }
+    
+    .svg4{
+        top: -330px !important;
+        left: -25% !important;
+    }
+ }
+
+ .new_svg5{
+     display: none;
+
+ }
+
+ @media (min-width: 140px) and (max-width: 485px) { 
+.new_svg5{
+    margin-top: 9rem;
+    position: absolute;
+    top: -360px;
+    right: -65px;
+ }
+ .for_new_svg5{
+  margin-top: 10rem;
+ }
+ }
+
+ @media (min-width: 486px) and (max-width: 767px) {
+    .new_svg5{
+        margin-top: -170px;
+        margin-bottom: 40px;
+       }
+ } 
+
+@media (max-width: 768px) { 
+
+    /* body_section */
+    .body_heading{
+        margin-bottom: -40px !important;
+    }
+
+    .body_first_col{
+     margin-top: 55px;
+    }
+
+    .again_svg2{
+        visibility: visible;
+    }
+
+    /* infrastructure_section */
+
+    .svg3{
+       width: 300px;
+       height: 300px;
+       top: -1500%;
+       left: 20%;
+      
+     }
+     
+     .svg4{
+        width: 500px;
+       height: 500px;
+       top: -1890%;
+       left: -5%;
+      
+     }
+
+     .svg5{
+       display: none;
+     }
+
+     .new_svg5{
+      display: block;
+     }
+
+     
+     
+
+ }
